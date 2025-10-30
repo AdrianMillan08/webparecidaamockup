@@ -9,60 +9,108 @@ html{
     margin: 50px;
 }
 #BloqueSevilla{
-    margin: 100px;
+    padding-bottom: 30px;
+    margin: 10%;
     width: 80%;
-    height: 400px;
+    height: auto;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Sevilla Bandera.png");
+    padding-right: 30px;
 }
 #BloqueCordoba{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Cordoba.png");
 }
 #BloqueMalaga{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Malaga.png");
 }
 #BloqueCadiz{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Cadiz.jpg")
 }
 #BloqueJaen{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Jaen.png")
 }
 #BloqueHuelva{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Huelva.png")
 }
 #BloqueGranada{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Granada.png")
 }
 #BloqueAlmeria{
-    margin: 100px;
+    margin: 10%;
     width: 80%;
     height: 400px;
     background-size: 100% 100%;
-    background-image: url("Sevilla Bandera.png")
+    background-image: url("/Banderas/Bandera Almeria.png")
+}
+.FechaCreacion{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    background-color: #545454;
+    margin-left: 90%;
+}
+.Descripcion{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    background-color: #545454;
+    margin-left: 40%; 
+}
+.RelatoHistorico{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    background-color: #545454;
+    margin-left: 40%;
+}
+.NumVictimas{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    background-color: #545454;
+    margin-left: 40%;
+}
+.URL{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    background-color: #545454;
+    margin-left: 90%;
+}
+.NombreFosa{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+h2 {
+    margin: 0%;
+}
+p{
+    padding: 5%;
 }
 /* -menu-
 
@@ -139,4 +187,7 @@ html{
 }
 */
 
-    
+footer{
+background: blueviolet;
+color: white;  
+}   
